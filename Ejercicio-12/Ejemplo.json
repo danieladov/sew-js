@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "xyz.hisname.fireflyiii.debug",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 104,
+      "versionName": "4.14.2-debug",
+      "outputFile": "app-debug.apk"
+    }
+  ],
+  "elementType": "File"
+}

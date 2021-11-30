@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>ej9</title>
+    <link rel="stylesheet" type="text/css" href=" Ejercicio9.css" />
+    <script src="Ejercicio9.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    
+</head>
+
+<body>
+    <nav>
+        <button onclick="meteo.getTiempoCiudad('Oviedo')">Oviedo</button>
+        <button onclick="meteo.getTiempoCiudad('Madrid')">Madrid</button>
+        <button onclick="meteo.getTiempoCiudad('Valencia')">Valencia</button>
+        <button onclick="meteo.getTiempoCiudad('Murcia')">Murcia</button>
+        <button onclick="meteo.getTiempoCiudad('Burgos')">Burgos</button>
+    </nav>
+    <section id="datos">
+        <h1 id="nombre">Selecciona la ciudad que deseas consultar</h1>
+        <img id = "icon" src="url" alt="icon"/>
+        <p id="temp"></p>
+        <p id="humedad"></p>
+        <p id="presion"></p>
+        <p id="visibilidad"></p>
+        <p id="actualizacion"></p>
+    </section>
+
+
+</body>
+</html>

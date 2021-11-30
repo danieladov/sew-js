@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>ej10</title>
+    <link rel="stylesheet" type="text/css" href=" Ejercicio10.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio10.js"></script>
+
+</head>
+
+<body>
+    <main>
+        <h1>Precio del oro</h1>
+        <label for="currency">Selecciona la moneda</label>
+        <select name="currency" id="currency">
+            <option value="EUR">EUR - European Euro</option>
+            <option value="USD">USD - United States dollar</option>
+            <option value="AED">AED - U.A.E. Dirham</option>
+            <option value="AUD">AUD - Australian dollar</option>
+            <option value="BTC">BTC - Bitcoin</option>
+            <option value="CAD">CAD - Canadian dollar</option>
+            <option value="CHF">CHF - Swiss franc</option>
+            <option value="CNY">CNY - Chinese/Yuan renminbi</option>
+            <option value="CZK">CZK - Czech Krona</option>
+            <option value="EGP">EGP - Egyptian pound</option>
+            <option value="GBP">GBP - British pound</option>
+            <option value="INR">INR - Indian rupee</option>
+            <option value="JPY">JPY - Japanese yen</option>
+            <option value="KWD">KWD - Kuwaiti dinar</option>
+            <option value="MYR">MYR - Malaysian Ringgit</option>
+            <option value="PLN">PLN - Polish Złoty</option>
+            <option value="RUB">RUB - Russian Ruble</option>
+            <option value="SGD">SGD - Singapore Dollar</option>
+            <option value="THB">THB - Thai baht</option>
+            <option value="XAG">XAG - Gold/Silver Ratio</option>
+            <option value="ZAR">ZAR - South African rand</option>
+        </select>
+        <button onclick="apiObject.getGoldPrice()">Ver Precio</button>
+        <img src="480px-Loader.gif" id="loader" alt="loader"/>
+        <p id="precio"></p>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>ej12</title>
+    <script src="Ejercicio12.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+    
+</head>
+
+<body>
+    <h1>Elije el archivo</h1>
+    <inpuT type="file" id="archivo" onchange="file.cargarArchivos(this.files)" multiple></inpu>
+
+    <p id="nombreArchivo"></p>
+    <p id="tamañoArchivo"></p>
+    <p id="tipoArchivo"></p>
+    <p id="ultimaModificacion"></p>
+    <p id="contenidoArchivo"></p>  
+    <pre id="areaTexto"></pre>
+    <p id="errorLectura"></p>
+
+</body>
+
+
+</html>

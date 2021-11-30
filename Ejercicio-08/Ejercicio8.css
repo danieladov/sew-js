@@ -1,0 +1,25 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    font-size: 1.8em;
+    background-color: lightskyblue;
+}
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 1em;
+    padding: 1em;
+}
+button{
+    font-size: 1.8em;
+    border-radius: 3em;
+    padding: 0.4em;
+}
+img{
+    width: 10%;
+    display: none;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>ej7</title>
+    <link rel="stylesheet" type="text/css" href=" Ejercicio7.css" />
+    <script src="Ejercicio7.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    
+</head>
+
+<body>
+    <h1>Este es el primer encabezado</h1>
+    <h2>Este es el segundo encabezado</h2>
+    <h3>Este es el tercer encabezado</h3>
+    <button onclick="modificador.ocultarEncabezados()">Ocultar Encabezados</button>
+    <button onclick="modificador.mostrarEncabezados()">Mostrar Encabezados</button>
+
+    <p id="parrafo1">Esto es un parrafo</p>
+
+    <h4>Modificar Parrafo</h4>
+    <form>
+        <input type="text" id="campoParrafo">
+        <button type="button" onclick="modificador.modificarParrafo()">Modificar párrafo</button>
+    </form>
+
+
+
+
+    <table id="tabla">
+        <tr>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>Teléfono</th>
+        </tr>
+        <tr>
+          <td>Jose</td>
+          <td>Martinez Gonzalez</td>
+          <td>634562345</td>
+        </tr>
+        <tr>
+          <td>Manolo</td>
+          <td>Francisco Chang</td>
+          <td>625434597</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>Moreno Sanchez</td>
+            <td>634723452</td>
+          </tr>
+          <tr>
+            <td>Ana</td>
+            <td>Alvarez Abascal</td>
+            <td>628493064</td>
+          </tr>
+    </table>
+    <h4>Añadir Columna a la tabla</h4>
+    <form id="formColumna">
+        <label for="nombreColumna">Nombre de la columna</label>
+        <input type="text" id="nombreColumna"/>
+
+        <button type="button" onclick="modificador.añadirColumna()">Añadir</button>
+    </form>
+    <h4>Añadir Fila a la tabla</h4>
+    <form id = "formTabla">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre"/>
+
+        <label for="Apellidos">Apellidos</label>
+        <input type="text" id="Apellidos"/>
+
+        <label for="Teléfono">Teléfono</label>
+        <input type="text" id="Teléfono"/>
+
+        <button type="button" onclick="modificador.añadirFila()">Añadir</button>
+    </form>
+
+
+    <button onclick="modificador.añadirPadre()">Añadir padre de cada elemento</button>
+
+     
+
+
+</body>
+</html>

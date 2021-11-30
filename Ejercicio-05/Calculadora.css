@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	border-radius: 5px;
+}
+
+main form{
+	background-color: #3c4443;
+    display: grid;
+    justify-content: center;
+    align-content:center;
+    min-height : 50vh;
+	width: fit-content;
+    grid-template-columns: repeat(4,7em);
+    grid-template-rows: minmax(1em,auto) repeat(5,5em);
+	margin: 1em;
+    
+}
+body{
+	display: flex;
+	align-items: center;
+	background-color: rgba(211,180,141,255);
+    
+}
+
+button{
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline:none;
+    background-color:rgba(221,221,221,255)	;
+	margin: 0.5em;
+    width: fit-content;
+    min-width: 2em;
+    max-height: 1.4em;
+}
+
+section:nth-of-type(1){
+    flex: 1 1 auto;;
+    overflow-y: auto;
+    grid-column: 1 / -1;
+	text-align: right;
+	font-size: 35px;
+	background-color: rgba(189,204,149,255);
+	margin:0.4em;
+    height: 6em
+    
+}
+section:nth-of-type(1) p{
+    margin-top: auto;  
+}
+
+form :nth-child(4n ){
+	background-color: rgba(255,69,97,255);
+}
+
+form :nth-child(n+2):nth-child(-n+4){
+	background-color: rgba(110,110,111,255);
+}
+
+form :nth-child(21){
+    background-color:rgba(221,221,221,255)	;
+}
+
+
+

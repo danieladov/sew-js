@@ -1,0 +1,25 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+h3{
+    color: darkslategray;
+}
+
+h4{
+    border: black;
+    border-radius: 2em;
+}
+
+p{
+    background-color: white;
+    color: brown;
+}

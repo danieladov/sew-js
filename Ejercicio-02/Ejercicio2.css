@@ -1,0 +1,17 @@
+body{
+    background-color: blanchedalmond;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+
+p{
+    background-color: white;
+    color: brown;
+}
