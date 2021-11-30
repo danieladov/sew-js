@@ -74,8 +74,11 @@ class Map{
         return ubication;
     }
     
-    cargarKML(src){
-        src = "https://developers.google.com/maps/documentation/javascript/examples/kml/westcampus.kml"
+    cargarKML(){
+        var src = document.getElementById("kml").value;
+        if(src.length == 0){
+            src = "https://raw.githubusercontent.com/danieladov/sew-js/master/Ejercicio-13/resultado.kml"
+        }
         this.geolocate();
         var kmlLayer = new google.maps.KmlLayer(src, {
             suppressInfoWindows: true,

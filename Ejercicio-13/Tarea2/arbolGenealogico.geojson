@@ -1,0 +1,32 @@
+{
+"type": "FeatureCollection",
+"name": "KML Arbol genialógico",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Daniel Alvarez Diaz", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.853252, 43.361412 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Jose Alvarez Lopez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -1.152409, 37.99054 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Julio Molleda Gomez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.93699, 43.55082 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Mario Molleda Menendez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.93699, 43.55082 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Mario Molleda Menendez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -8.567677, 41.156697 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Laura Gomez Diaz", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.618558, 40.386478 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Laura Gomez Diaz", "description": null }, "geometry": { "type": "Point", "coordinates": [ -8.567677, 41.156697 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Maria De los Santos Morcin", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.353252, 41.361412 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Jose Luis De los Santos Gomez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.053252, 40.361412 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Jose Luis De los Santos Gomez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -0.404011, 39.462839 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Maria Jose Morcin Perez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -4.454462, 36.714099 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Maria Jose Morcin Perez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.772319, 43.442873 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Julia Diaz Montes", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.853252, 43.361412 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Ramon Diaz Borbolla", "description": null }, "geometry": { "type": "Point", "coordinates": [ -0.890338, 41.664378 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Ramon Diaz Borbolla", "description": null }, "geometry": { "type": "Point", "coordinates": [ -4.155363, 40.641614 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Lucas Diaz Fuentes", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.64552, 37.188872 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Lucas Diaz Fuentes", "description": null }, "geometry": { "type": "Point", "coordinates": [ -3.849253, 40.363406 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Maria Borbolla Lopez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -4.560214, 41.550868 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Maria Borbolla Lopez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -4.235363, 41.441614 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Julia Montes Pascual", "description": null }, "geometry": { "type": "Point", "coordinates": [ -4.789638, 37.88422 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Julia Montes Pascual", "description": null }, "geometry": { "type": "Point", "coordinates": [ -0.509775, 38.356893 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Mario Montes Perez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -5.353252, 41.361412 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Mario Montes Perez", "description": null }, "geometry": { "type": "Point", "coordinates": [ -1.093142, 37.962504 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de nacimiento de Julia Pascual Naranjo", "description": null }, "geometry": { "type": "Point", "coordinates": [ -2.402099, 36.861826 ] } },
+{ "type": "Feature", "properties": { "Name": "Lugar de Fallecimiento de Julia Pascual Naranjo", "description": null }, "geometry": { "type": "Point", "coordinates": [ -1.093142, 37.0 ] } }
+]
+}
