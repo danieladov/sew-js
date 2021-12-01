@@ -1,12 +1,15 @@
+/*specificity =   001 */
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+/*specificity =   001 */
 body{
     font-size: 1.8em;
     background-color: lightskyblue;
 }
+/*specificity =   001 */
 nav{
     display: flex;
     align-content: center;
@@ -14,11 +17,13 @@ nav{
     margin: 1em;
     padding: 1em;
 }
+/*specificity =   001 */
 button{
     font-size: 1.8em;
     border-radius: 3em;
     padding: 0.4em;
 }
+/*specificity =   001 */
 img{
     width: 10%;
     display: none;

@@ -1,15 +1,18 @@
+/*specificity =   001 */
 form{
     margin-bottom: 1em;
 }
+/*specificity =   001 */
 table,th,td {
   padding: 10px;
   border: 1px solid black;
   border-collapse: collapse;
 }
-
+/*specificity =   001 */
 button{
     border-radius: 2em;
 }
+/*specificity =   001 */
 body{
     margin: 1em;
 }
