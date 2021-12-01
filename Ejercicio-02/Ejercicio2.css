@@ -1,16 +1,17 @@
+/*specificity =   001 */
 body{
     background-color: blanchedalmond;
 }
-
+/*specificity =   001 */
 h1{
     font-size: 3em;
 }
-
+/*specificity =   001 */
 h2{
     font-weight: bolder;
 }
 
-
+/*specificity =   001 */
 p{
     background-color: white;
     color: brown;

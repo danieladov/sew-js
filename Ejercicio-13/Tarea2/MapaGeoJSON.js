@@ -77,12 +77,10 @@ class Map{
     cargarKML(){
         var src = document.getElementById("kml").value;
         if(src.length == 0){
-            src = "https://raw.githubusercontent.com/danieladov/sew-js/master/Ejercicio-13/resultado.kml"
+            src = "https://raw.githubusercontent.com/danieladov/sew-js/master/Ejercicio-13/Tarea2/arbolGenealogico.geojson"
         }
         this.geolocate();
-        this.mapaGeoposicionado.data.loadGeoJson(
-            "https://storage.googleapis.com/mapsdevsite/json/google.json"
-          );
+        this.mapaGeoposicionado.data.loadGeoJson(src);
     }
 }
 

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 14</title>
+    <script src="Ejercicio14.js"></script>
+    <link rel="stylesheet" type="text/css" href="Ejercicio-14.css" />
+
+</head>
+
+<body>
+    <h1>Puedes subir una carpeta entera para que todos los archivos html que contenga sean validados</h1>
+    <input type="file" id="file" onchange="validator.validateFiles(this.files)" webkitdirectory  multiple>
+    <section id="drop_zone" ondrop="validator.dropHandler(event);" ondragover="validator.dragOverHandler(event);">
+        
+        <h2>Arrastra y suelta uno o más archivos a esta zona ...</h2>
+    </section>
+
+    <main id="resultados">
+
+    </main>
+
+</body>
+
+
+</html>
