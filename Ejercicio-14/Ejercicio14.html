@@ -11,6 +11,7 @@
 
 <body>
     <h1>Puedes subir una carpeta entera para que todos los archivos html que contenga sean validados</h1>
+   <label for="file">Selecciona un archivo:</label> 
     <input type="file" id="file" onchange="validator.validateFiles(this.files)" webkitdirectory  multiple>
     <section id="drop_zone" ondrop="validator.dropHandler(event);" ondragover="validator.dragOverHandler(event);">
         
