@@ -1,3 +1,4 @@
+/*specificity =   000 */
 * {
 	margin: 0;
 	padding: 0;
@@ -5,13 +6,14 @@
 	font-family: sans-serif;
 	border-radius: 5px;
 }
+/*specificity =   001 */
 sup {
     vertical-align: super;
     font-size: smaller;
 	background-color:rgba(110,110,111,255)	;
 
 }
-
+/*specificity =   001 */
 main{
 	background-color: #3c4443;
     display: grid;
@@ -24,12 +26,13 @@ main{
 	margin: 1em;
     
 }
+/*specificity =   001 */
 body{
 	display: flex;
 	align-items: center;
 	background-color: rgba(211,180,141,255);
 }
-
+/*specificity =   001 */
 button{
     cursor: pointer;
     font-size: 2rem;
@@ -38,24 +41,24 @@ button{
     background-color:rgba(221,221,221,255)	;
 	margin: 0.5em;
 }
-
+/*specificity =   011 */
 main:nth-child(n+3){
 	background-color: tomato;
 }
 
-
+/*specificity =   021 */
 main :nth-child(n+2):nth-child(-n+27), main :nth-child(n+31):nth-child(-n + 32), 
 main :nth-child(n+36):nth-child(-n + 37), main :nth-child(n+41):nth-child(-n + 43),
  main :nth-child(n+46):nth-child(-n + 47) {
 	background-color: rgba(110,110,111,255);
 }
-
+/*specificity =   011 */
 main :nth-child(21){
     background-color:rgba(221,221,221,255)	;
 }
 
 
-
+/*specificity =   001 */
 p{
     grid-column: 1 / -1;
 	text-align: right;
